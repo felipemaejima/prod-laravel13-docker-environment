@@ -1,0 +1,34 @@
+# Dependências (serão instaladas no build)
+/vendor
+/node_modules
+
+# Ambiente e segredos — NUNCA copiar pra imagem
+.env
+.env.backup
+.env.production
+
+# Build do front (não se aplica aqui, mas por segurança)
+/public/build
+/public/hot
+
+# Storage volátil
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Git e CI
+.git
+.gitignore
+.github
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# IDE / SO
+.idea
+.vscode
+.DS_Store
